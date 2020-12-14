@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="mystyle.css">
+<style type="text/css">
+	#banner {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	Right: 5px;
+	width: 95%;
+	height: 200px;
+	z-index= -1;
+	}	
+	</style>
+<div class="dropdown">
+	<button class="dropbtn">Menu</button>
+	<div class="dropdown-content">
+<a href="web_page.html" class="Mobile-overlay-nav-item">Home</a>
+<a href="file:///Users/nylatillar/Documents/through_the_eyes_of_nyla/text1.html" class="Mobile-overlay-nav-item">Interests</a> 
+<a href="forthearts.html" class="Mobile-overlay-nav-item">For the Arts</a>
+<a href="Contact Form.html" class="Mobile-overlay-nav-item">Contact</a>
+	</div>
+	</div>
+<center><img id="banner" src="My Post-2.jpg" alt="Banner"></center>		
+
+<title>Contact Form</title>
+</head>
+<body>
+	
+<center>
+<h2>Questions About Our Services?</h2>
+<p>Feel free to fill out the form below. Answers will be sent directly to your email address.</p>
+<h2>Contact Form</h2>
+
+<form action="/action_page.php" method="post">
+	First name:<br>
+	<input type="text" name="firstname"><br>
+	Last name:<br>
+	<input type="text" name="lastname">
+</form>
+<form action="/action_page.php" method="post">
+	Email:<br>
+	<input type="email" name="email"><input type="submit">
+</form>
+
+<textarea name="Question" rows="10" cols="30" method="post">Enter question here.</textarea>
+	<br>
+<input type="submit">
+</center>
+	
+</body>
+</html>
